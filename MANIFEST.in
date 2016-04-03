@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include agensys *.css
+recursive-include agensys *.csv
+recursive-include agensys *.html
+recursive-include agensys *.ico
+recursive-include agensys *.js
+recursive-include agensys *.json
+recursive-include agensys *.md
+recursive-include agensys *.png
+recursive-include agensys *.py
+recursive-include agensys *.svg
+recursive-include agensys *.txt
+recursive-exclude agensys *.pyc
